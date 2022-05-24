@@ -4,6 +4,6 @@
   tasks:
 
     - name: Create directoies for RGS Servers
-      win_file:
-        path: C:\Temp
-        state: directory
+      win_reboot:
+        reboot_timeout: 3600
+
