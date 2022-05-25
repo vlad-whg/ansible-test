@@ -1,9 +1,0 @@
----
-- hosts: all
-  gather_facts: yes
-  tasks:
-
-    - name: Create directoies for RGS Servers
-      win_file:
-        path: C:\Temp
-        state: directory
