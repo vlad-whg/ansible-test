@@ -3,7 +3,6 @@
   gather_facts: yes
   tasks:
 
-    - name: Create directoies for RGS Servers
-      win_reboot:
-        reboot_timeout: 3600
+    - name: Ping Servers
+      win_ping:
 
